@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CircularButton" x:Class="CircularButton.MainPage">
+    <StackLayout>
+        <local:CircularButton HorizontalOptions="FillAndExpand" Text="Horizontal Fill"/>
+        <local:CircularButton HorizontalOptions="Center" WidthRequest="100" HeightRequest="100" Text="circle"/>
+        <local:CircularButton VerticalOptions="FillAndExpand" Text="Vertical Fill"/>
+    </StackLayout>
+</ContentPage>
